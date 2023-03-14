@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    
+}
+.snake-box{
+    margin-left: 150px;
+    margin-top: 60px;
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+}
+
+.apple{
+     position: absolute;
+     background-color: red;
+     width: 20px;
+     height: 20px;
+}
+.boxes{
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
